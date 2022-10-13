@@ -1,0 +1,72 @@
+.product {
+    text-align: center;
+    width: 350px;
+    height: 407px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 14px;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+.product__image {
+    flex: 1;
+    margin: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product__one-title{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.product__one-price{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFA542;
+
+}
+.product__one-buy{
+    border: none;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.product__one {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product__one-rate {
+    display: flex;
+    align-items: center;
+}
+
+.product__one-rate-img {
+    margin-right: 10px;
+}
+
+.product__one-rate-text {
+    color: #838383;
+    font-weight: 700;
+    font-size: 17px;
+}

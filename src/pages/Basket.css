@@ -1,0 +1,58 @@
+.main {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basket {
+    width: 100%;
+}
+
+.title {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.makeOrder {
+    text-align: center;
+    width: 350px;
+    height: 114px;
+    border-radius: 30px;
+    background-color: white;
+    padding: 22px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.makeOrder__price {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.makeOrder-button {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: center;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    width: 350px;
+    height: 65px;
+}

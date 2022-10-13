@@ -1,0 +1,49 @@
+.header{
+    width: 1135px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.header__name{
+    font-size: 25px;
+    font-weight: 700;
+}
+.header__icons{
+    align-items: center;
+    display: flex;
+}
+.header__icon{
+    position: relative;
+    padding: 10px;
+}
+.header__icon-counter{
+    color: white;
+    right: 2px;
+    top: 4px;
+    font-size: 15px;
+    background-color: orange;
+    border-radius: 50%;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    position: absolute;
+}
+.header__icon-like{
+    cursor: pointer;
+    width: 22px;
+    height: 20px;
+}
+.header__icon-basket{
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+}
